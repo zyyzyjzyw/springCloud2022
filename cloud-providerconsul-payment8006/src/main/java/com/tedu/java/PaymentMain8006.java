@@ -2,20 +2,19 @@ package com.tedu.java;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 /**
  * @author： zyy
- * @date： 2022/9/19 19:49
+ * @date： 2022/9/25 21:11
  * @description： TODO
  * @version: 1.0
  * @描述：
  **/
 @SpringBootApplication
-@EnableEurekaClient
-//@RibbonClient(name="CLOUD-PAYMENT-SERVICE",configuration = MySelfRule.class)
-public class OrderMain80 {
+@EnableDiscoveryClient
+public class PaymentMain8006 {
     public static void main(String[] args) {
-        SpringApplication.run(OrderMain80.class,args);
+        SpringApplication.run(PaymentMain8006.class,args);
     }
 }
