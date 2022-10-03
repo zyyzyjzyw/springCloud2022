@@ -14,5 +14,5 @@ spring:
         git:
           uri: git@github.com:zyyzyjzyw/springCloud2022.git
           search-paths:
-            - springcloud-config
+            - SpringCloud-config
       label: master
